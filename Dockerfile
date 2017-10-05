@@ -17,6 +17,7 @@ RUN apt-get update \
        python3-setuptools \
        python3-venv \
        python3-wheel \
+       build-essential \
     && rm -rf /var/lib/apt/lists/* \
     && ln -nsf /usr/bin/python3.5 /usr/bin/python
 
